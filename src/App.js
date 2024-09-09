@@ -17,6 +17,7 @@ function App() {
         setImageList(res.data);
         setTempImageList(res.data);
         setIsLoading(false);
+        console.log(res.data);
       });
   }, []);
 
